@@ -46,6 +46,56 @@
   }
 }
 
+/* BOX-DIVS */
+
+/* Phone styles & > */
+.nav-box {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-box {
+    display: block;
+  }
+}
+.nav-ul {
+  display: flex;
+  gap: 20px;
+}
+
+/* Phone styles & > */
+.logo-box {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .logo-box {
+  }
+}
+
+/* Phone styles & > */
+.cart-box {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .cart-box {
+    display: block;
+  }
+}
+
+/* Phone styles & > */
+.menu-toggle {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+/* TMP-SVG */
 svg {
   fill: crimson;
   stroke: crimson;
