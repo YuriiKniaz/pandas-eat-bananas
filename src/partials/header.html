@@ -1,7 +1,47 @@
-<header>
-  <ul>
-    <li>hi-hi</li>
-    <li>there</li>
-    <li>developer</li>
-  </ul>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="fresh-header">
+      <div class="page-header container">
+        <nav>
+          <ul>
+            <li><a href="" class="nav-links link">How It Works</a></li>
+            <li><a href="" class="nav-links link">Fruits</a></li>
+            <li><a href="" class="nav-links link">Contacts</a></li>
+          </ul>
+        </nav>
+        <div>
+          <svg width="16" height="16">
+            <use href="../images/icons.svg#icon-logo"></use>
+          </svg>
+          <span>fresh harvest box</span>
+        </div>
+        <div>
+          <svg width="28" height="28">
+            <use href="../images/icons.svg#icon-cart"></use>
+          </svg>
+        </div>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="24" height="24">
+            <use href="../images/icons.svg#icon-mob-menu-left"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+  </body>
+</html>
