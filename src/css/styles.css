@@ -51,6 +51,15 @@
 }
 
 :root {
+  --black-color: #000000;
+  --main-color: #ae1332;
+  --text-color: #ffffff;
+  --light-green: #a4cb66;
+  --yellow-color: #f5ce13;
+  --icon-hover-color: rgba(174, 19, 50, 0.1);
+}
+
+body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
