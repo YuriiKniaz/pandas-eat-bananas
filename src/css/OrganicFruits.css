@@ -1,0 +1,30 @@
+.OrganicFruits {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #AE1332;
+}
+
+.saglav-organic {
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.paragraf-organic {
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: -0.04em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 14px;
+  width: 547px;
+  margin-left: 366px;
+}
