@@ -53,14 +53,15 @@ a {
   background-color: var(--main-color);
 }
 
-.id-list {
+.footer-logo-block .nav-ul {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
   gap: 20px;
 }
 
-.id-list .list .item {
+
+.footer-logo-block .nav-ul .nav-links {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
