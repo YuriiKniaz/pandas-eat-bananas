@@ -94,9 +94,3 @@
     display: none;
   }
 }
-
-/* TMP-SVG */
-svg {
-  fill: crimson;
-  stroke: crimson;
-}
