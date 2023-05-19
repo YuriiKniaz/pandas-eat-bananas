@@ -10,7 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     
-    <link rel="stylesheet" href="/pandas-eat-bananas/assets/index-af5a9c6e.css">
+    <link rel="stylesheet" href="/pandas-eat-bananas/assets/index-f5724b4e.css">
   </head>
   <body>
     <header class="fresh-header">
@@ -377,7 +377,141 @@
   </div>
 </footer>
 
-    
+    <div class="btn-order-box">
+  <h3>Button order</h3>
+  <button class="order-button" type="button" data-modal-open>
+    order
+    <svg class="order-svg" width="14" height="14">
+      <use href=""></use>
+    </svg>
+  </button>
+</div>
+
+<!-- modal window -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="backdrop-window">
+    <button class="btn-close" data-modal-close>
+      <svg class="cross-icon" width="14" height="14">
+        <use href="/pandas-eat-bananas/assets/icon-919af2fc.svg#icon-close-cross"></use>
+      </svg>
+    </button>
+
+    <!-- modal title -->
+
+    <h2 class="title-modal">your order</h2>
+
+    <!-- modal forms with fruits -->
+    <div class="modal-fruit-box">
+      <ul class="modal-fruit-list">
+        <li class="modal-fruit-items">
+          <form class="modal-form-fruit">
+           <label class="madal-form-agree" for="agree"
+        ><input
+          class="modal-form-agreement-box"
+          type="checkbox"
+          name="user_agreement"
+          id="agree"
+        />
+        <h3 class="modal-title-basket">Strawberry Basket</h3>
+        <p class="modal-text-basket">Plant</p>
+        <img class="modal-img-basket" srcset="/pandas-eat-bananas/assets/strawberry-basket@1x-db474f99.png 1x, /pandas-eat-bananas/assets/strawberry-basket@2x-95f56e8e.png 2x"  
+        src="/pandas-eat-bananas/assets/strawberry-basket@1x-db474f99.png"
+         alt="strawberry basket" 
+         width: 173px
+         height: 196px>
+          </form>
+        </li>
+        <li class="modal-fruit-items yellow">
+          <form class="modal-form-fruit">
+           <label class="madal-form-agree" for="agree"
+        ><input
+          class="modal-form-agreement-box"
+          type="checkbox"
+          name="user_agreement"
+          id="agree"
+        />
+        <h3 class="modal-title-basket">Strawberry Basket</h3>
+        <p class="modal-text-basket">Plant</p>
+        <img class="modal-img-basket" srcset="/pandas-eat-bananas/assets/apple-basket@1x-360c376f.png 1x, /pandas-eat-bananas/assets/apple-basket@2x-e37014ef.png 2x"  
+        src="/pandas-eat-bananas/assets/apple-basket@1x-360c376f.png"
+         alt="apple basket" 
+         width: 229px
+         height: 196px>
+          </form>
+        </li>
+        <li class="modal-fruit-items green">
+          <form class="modal-form-fruit">
+           <label class="madal-form-agree" for="agree"
+        ><input
+          class="modal-form-agreement-box"
+          type="checkbox"
+          name="user_agreement"
+          id="agree"
+        />
+        <h3 class="modal-title-basket">Strawberry Basket</h3>
+        <p class="modal-text-basket">Plant</p>
+        <img class="modal-img-basket" srcset="/pandas-eat-bananas/assets/fruits-basket@1x-20949a19.png 1x, /pandas-eat-bananas/assets/fruits-basket@2x-7e3d8508.png 2x"  
+        src="/pandas-eat-bananas/assets/fruits-basket@1x-20949a19.png"
+         alt="strawberry basket" 
+         width: 229px
+         height: 196px>
+          </form>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="box-form"> -->
+    <form class="modal-form">
+        <div class="madal-form-box">
+        <input
+          class="modal-form-input"
+          type="text"
+          name="user-name"
+          id="user-name"
+          placeholder="Enter full name..."
+        />
+        <svg class="modal-form-icon" width="18" height="24">
+          <use href="/pandas-eat-bananas/assets/icon-919af2fc.svg#icon-name"></use>
+        </svg>
+      </div>
+      <div class="madal-form-box">
+        <input
+          class="modal-form-input"
+          type="email"
+          name="user-mail"
+          id="user-mail"
+          placeholder="Enter email..."
+        />
+        <svg class="modal-form-icon" width="18" height="24">
+          <use href="/pandas-eat-bananas/assets/icon-919af2fc.svg#icon-name"></use>
+        </svg>
+      </div>
+        <div class="madal-form-box">
+        <input
+          class="modal-form-input"
+          input name="credit-number" type="tel" pattern="\d*" maxlength="19" 
+          placeholder="Enter card.."
+        />
+        <svg class="modal-form-icon" width="18" height="24">
+          <use href="/pandas-eat-bananas/assets/icon-919af2fc.svg#icon-name"></use>
+        </svg>
+      </div>
+        
+       <div class="madal-text-box">
+        <textarea
+          class="modal-textarea"
+          name="user-comment"
+          id="comment"
+          rows="5"
+          placeholder="Enter comments..."
+        ></textarea>
+      </div>
+      <button class="btn-modal-submit" type="submit">submit</button>
+    </form>
+  </div>
+</div>
+<!-- script for open modal window -->
+<script src="/js/modal.js"></script>
+
 
     
   </body>
