@@ -3,13 +3,13 @@
     <nav class="nav-box">
       <ul class="nav-ul">
         <li class="nav-ul-item">
-          <a href="" class="nav-links link">How It Works</a>
+          <a href="#" class="nav-links link">How It Works</a>
         </li>
         <li class="nav-ul-item">
-          <a href="" class="nav-links link">Fruits</a>
+          <a href="#" class="nav-links link">Fruits</a>
         </li>
         <li class="nav-ul-item">
-          <a href="" class="nav-links link">Contacts</a>
+          <a href="#" class="nav-links link">Contacts</a>
         </li>
       </ul>
     </nav>
@@ -17,7 +17,7 @@
       <svg width="16" height="16">
         <use href="/img/icons.svg#icon-logo"></use>
       </svg>
-      <span>fresh harvest box</span>
+      <span class="logo-text">fresh harvest box</span>
     </div>
     <div class="cart-box">
       <svg width="28" height="28">
@@ -35,3 +35,54 @@
     </button>
   </div>
 </header>
+
+<!-- MODILE MENU -->
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <div class="mobail-menu-header">
+    <ul class="mobail-header-ul">
+      <li class="">
+        <div class="logo-box">
+          <svg width="16" height="16">
+            <use href="/img/icons.svg#icon-logo"></use>
+          </svg>
+          <span class="logo-text">fresh harvest box</span>
+        </div>
+      </li>
+      <li>
+        <button class="modal-close-btn js-close-menu" type="button">
+          <svg width="12" height="12">
+            <use href="/img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div class="mobail-menu-main">
+    <ul class="mobile-body-ul list">
+      <li class="mobile-body-ul-item">
+        <a href="#" class="mobile-links link">How It Works</a>
+      </li>
+      <li class="mobile-body-ul-item">
+        <a href="#" class="mobile-links link">Fruits</a>
+      </li>
+      <li class="mobile-body-ul-item">
+        <a href="#" class="mobile-links link">Contacts</a>
+      </li>
+      <li class="mobile-body-ul-item">
+        <svg width="28" height="28">
+          <use href="/img/icons.svg#icon-cart"></use>
+        </svg>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- JS -->
+<script
+  defer=""
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
+
+<script defer="" src="js/mobile-menu.js"></script>
