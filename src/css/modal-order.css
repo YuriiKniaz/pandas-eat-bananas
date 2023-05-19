@@ -8,7 +8,7 @@
     background-color: rgba(46, 47, 66, 0.4);
     backdrop-filter: blur(6px);
     transition-property: visibility, opacity, pointer-events;
-    transition-duration: var(--time-transfor);
+    transition-duration: 250ms;
 }
 
 /* JS Modal Window */
@@ -16,7 +16,7 @@
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-    transition-duration: var(--time-transfor);
+    transition-duration: 250ms;
 }
 
 .backdrop-window {
@@ -26,7 +26,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    padding: 40px;
+    padding: 20px;
     background: var(--text-color);
     background-image: url("../img/Background-modal@1x.png");
     background-size: 471px 458px;
@@ -36,6 +36,12 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 
+}
+
+@media only screen and (min-width: 1280px) {
+    .backdrop-window {
+        padding: 40px;
+    }
 }
 
 /* Button close */
@@ -93,7 +99,7 @@
 }
 
 .modal-fruit-items {
-    width: 257px;
+    flex-basis: calc((100% - 28px) / 3);
     height: 308px;
     padding: 14px;
     border-radius: 20px;
@@ -177,7 +183,7 @@
 
 .madal-form-box {
     position: relative;
-    margin-bottom: 8px;
+
 }
 
 .modal-form-icon {
@@ -261,28 +267,19 @@
 /* Button Submit */
 .btn-modal-submit {
     display: flex;
-
     width: 114px;
     height: 48px;
-
     border: none;
-
     background-color: #9DC162;
     border-radius: 100px;
-
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
-
-
     letter-spacing: -0.04em;
     text-transform: capitalize;
 
     color: #FFFFFF;
-
-
     cursor: pointer;
-
     align-items: center;
     justify-content: center;
 
