@@ -144,6 +144,7 @@ a {
 
 .footer-address .auth-nav .item .info {
 font-weight: 400;
+font-style: normal;
 font-size: 14px;
 line-height: 1.29;
 
@@ -153,11 +154,18 @@ letter-spacing: -0.02em;
 color: var(--main-color);
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-address .auth-nav .item .info {
+        font-size: 18px;
+    line-height: 1.33;
+    align-items: start;
+    }
+}
+
 .footer-address .auth-nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    justify-content: center;
 }
 
 .footer-address .phone {margin-bottom: 14px;}
