@@ -28,6 +28,7 @@ a {
     margin-bottom: 80px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .container.footer-block {
     max-width: 1280px;
@@ -38,6 +39,7 @@ a {
     flex-wrap: wrap;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .footer-contacts {
     min-width: 184px;
@@ -50,12 +52,14 @@ a {
     margin-bottom: 153px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .footer-contacts {
     margin-top: 80px;
     margin-bottom: auto;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .footer-img-logo {
     margin-right: 243px;
@@ -91,6 +95,7 @@ a {
   justify-content: center;
   margin-bottom: 24px;
 }
+
 .footer-logo-block .nav-ul {
   display: flex;
   justify-content: center;
@@ -109,30 +114,37 @@ a {
   letter-spacing: -0.04em;
   color: var(--main-color);
 }
+
 @media only screen and (min-width: 768px) {
   .footer-logo-block .nav-ul {
     margin-bottom: 0;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .footer-logo {
     margin-bottom: 80px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .footer-logo {
     margin-bottom: 0;
   }
 }
+
 .footer-address .auth-nav .item .info {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.29;
+
   text-align: center;
   letter-spacing: -0.02em;
+
   color: var(--main-color);
 }
+
 @media only screen and (min-width: 768px) {
   .footer-address .auth-nav .item .info {
     font-size: 18px;
@@ -140,25 +152,30 @@ a {
     align-items: start;
   }
 }
+
 .footer-address .auth-nav {
   display: flex;
   font-style: normal;
   flex-direction: column;
   justify-content: center;
 }
+
 .footer-address .phone {
   margin-bottom: 14px;
 }
+
 @media only screen and (min-width: 768px) {
   .footer-address .phone {
     margin-bottom: 20px;
   }
 }
+
 .footer-address .address {
   display: block;
   max-width: 140px;
   text-align: center;
 }
+
 @media only screen and (min-width: 768px) {
   .footer-address .address {
     text-align: left;
@@ -183,10 +200,36 @@ a {
   border: 1px solid var(--main-color);
   border-radius: 10px;
 }
+
 .social-link.link:hover,
 .social-link.link:focus {
   background-color: rgba(174, 19, 50, 0.1);
 }
+
 .social-icon {
   fill: var(--main-color);
+}
+
+.auth-nav.list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin-top: 44px;
+}
+
+.info.link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+  /* text-transform: uppercase; */
+
+  color: var(--main-color);
+}
+.item.tel {
+  padding-bottom: 14px;
 }

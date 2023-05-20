@@ -1,1 +1,145 @@
 
+
+<!-- modal window -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="backdrop-window">
+    <button class="btn-close" data-modal-close>
+      <svg class="cross-icon" width="14" height="14">
+        <use href="/img/icon.svg#icon-close-cross"></use>
+      </svg>
+    </button>
+
+    <!-- modal title -->
+
+    <h2 class="title-modal">your order</h2>
+
+    <!-- modal forms with fruits -->
+    <div class="modal-fruit-box">
+      <ul class="modal-fruit-list">
+        <li class="modal-fruit-items">
+          <div class="check-modal">
+          <form class="modal-form-fruit">
+           <label class="madal-form-agree" for="agree"
+        ><input
+          class="modal-form-agreement-box"
+          type="checkbox"
+          name="user_agreement"
+          id="agree"
+        />
+        </form>
+        </div>
+        <div class="text-basket">
+        <h3 class="modal-title-basket">Strawberry Basket</h3>
+        <p class="modal-text-basket">Plant</p>
+        </div>
+        <div>
+        <img class="modal-img-basket" srcset="/img/strawberry-basket@1x.png 1x, /img/strawberry-basket@2x.png 2x"  
+        src="/img/strawberry-basket@1x.png"
+         alt="strawberry basket" 
+         width: 173px
+         height: 196px>
+          </div>
+        </li>
+        <li class="modal-fruit-items yellow">
+          <div class="check-modal">
+          <form class="modal-form-fruit">
+           <label class="madal-form-agree" for="agree"
+        ><input
+          class="modal-form-agreement-box"
+          type="checkbox"
+          name="user_agreement"
+          id="agree"
+        />
+      </form>
+      </div>
+        <div class="text-basket">
+        <h3 class="modal-title-basket">Apple Basket</h3>
+        <p class="modal-text-basket">Plant</p>
+      </div>
+        <div>
+        <img class="modal-img-basket-size" srcset="/img/apple-basket@1x.png 1x, /img/apple-basket@2x.png 2x"  
+        src="/img/apple-basket@1x.png"
+         alt="apple basket" 
+         width: 229px
+         height: 196px>
+          </div>
+        </li>
+        <li class="modal-fruit-items green">
+          <div class="check-modal">
+          <form class="modal-form-fruit">
+           <label class="madal-form-agree" for="agree"
+        ><input
+          class="modal-form-agreement-box"
+          type="checkbox"
+          name="user_agreement"
+          id="agree"
+        />
+      </form>
+      </div>
+        <div class="text-basket">
+        <h3 class="modal-title-basket">Fruits Basket</h3>
+        <p class="modal-text-basket">Plant</p>
+      </div>
+        <div>
+        <img class="modal-img-basket-size" srcset="/img/fruits-basket@1x.png 1x, /img/fruits-basket@2x.png 2x"  
+        src="/img/fruits-basket@1x.png"
+         alt="strawberry basket" 
+         width: 229px
+         height: 196px>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="box-form"> -->
+    <form class="modal-form">
+        <div class="madal-form-box">
+        <input
+          class="modal-form-input"
+          type="text"
+          name="user-name"
+          id="user-name"
+          placeholder="Enter full name..."
+          
+        />
+        <!-- <svg class="modal-form-icon" width="18" height="24">
+          <use href="/img/icon.svg#icon-name"></use>
+        </svg> -->
+      </div>
+      <div class="madal-form-box">
+        <input
+          class="modal-form-input"
+          type="email"
+          name="user-mail"
+          id="user-mail"
+          placeholder="Enter email..."
+        />
+        <!-- <svg class="modal-form-icon" width="18" height="24">
+          <use href="/img/icon.svg#icon-name"></use>
+        </svg> -->
+      </div>
+        <div class="madal-form-box">
+        <input
+          class="modal-form-input"
+          input name="credit-number" type="tel" pattern="\d*" maxlength="19" 
+          placeholder="Enter card.."
+        />
+        <!-- <svg class="modal-form-icon" width="18" height="24">
+          <use href="/img/icon.svg#icon-name"></use>
+        </svg> -->
+      </div>
+        
+       <div class="madal-text-box">
+        <textarea
+          class="modal-textarea"
+          name="user-comment"
+          id="comment"
+          rows="5"
+          placeholder="Enter comments..."
+        ></textarea>
+      </div>
+      <button class="btn-modal-submit" type="submit">submit</button>
+    </form>
+  </div>
+</div>
+
+

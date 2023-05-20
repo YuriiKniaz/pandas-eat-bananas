@@ -1,0 +1,168 @@
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.contacts-section {
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+
+.contacts-container {
+  outline: 2px solid yellow;
+  position: relative;
+  padding-top: 53px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .section {
+    padding-bottom: 144px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  .section {
+    padding-bottom: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacts-container {
+    padding-top: 79px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contacts-container {
+    padding-top: 89px;
+  }
+}
+
+.contacts-title {
+  position: absolute;
+  top: 0px;
+  width: 335px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 768px) {
+  .contacts-title {
+    width: 648px;
+    font-size: 54px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contacts-title {
+    width: 740px;
+    font-size: 64px;
+  }
+}
+
+.contact-decorate {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.contact-decorate-item {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .bilberry-item {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .melon-item {
+    max-width: 344px;
+  }
+}
+
+.contacts-description {
+  width: 492px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 767px) {
+  .contacts-description {
+    display: none;
+  }
+}
+
+.contacts-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-email {
+  width: 292px;
+  height: 48px;
+
+  padding: 15px 24px;
+
+  background-color: var(--main-color);
+  color: var(--text-color);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+
+  outline: none;
+}
+
+.contacts-email::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.contacts-button {
+  position: relative;
+  right: 54px;
+  z-index: 10;
+
+  padding: 15px 35px;
+
+  min-width: 102px;
+  height: 48px;
+
+  background: var(--light-green);
+  border-radius: 100px;
+  border: none;
+  color: var(--text-color);
+
+  cursor: pointer;
+}
+
+.contacts-button:hover {
+  background: var(--text-color);
+  color: var(--light-green);
+}
