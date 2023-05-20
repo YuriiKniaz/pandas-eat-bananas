@@ -136,7 +136,6 @@
   .cards-fruits {
     display: flex;
     flex-wrap: wrap;
-
     row-gap: 24px;
   }
 }
@@ -149,6 +148,13 @@
 .iconka {
   transition: box-shadow var(--icon-hover-color);
 }
+
+@media screen and (min-width: 1280px) {
+  .iconka {
+    flex-basis: calc((100% - 2 * 24px)/3);
+  }
+}
+
 
 @media screen and (min-width: 768px) {
   .iconka-strawberry {
