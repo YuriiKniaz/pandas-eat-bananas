@@ -1,8 +1,23 @@
+<<<<<<< Updated upstream
 .container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
   padding-left: 15px;
+=======
+/* .container {
+  min-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+   padding-bottom: 80px; 
+  margin-left: auto;
+  margin-right: auto;
+   background-color: #AE1332; 
+} */
+
+.organic-fruits {
+  background-color: #ae1332;
+>>>>>>> Stashed changes
 }
 
 .OrganicFruits {
@@ -23,6 +38,61 @@
   line-height: 44px;
 }
 
+<<<<<<< Updated upstream
+=======
+.organicFruits {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .organicFruits {
+    padding-top: 144px;
+    padding-bottom: 144px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .organicFruits {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .saglav-organic {
+    width: 210px;
+    height: 28px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .saglav-organic {
+    width: 624px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  }
+}
+
+>>>>>>> Stashed changes
 .paragraf-organic {
   color: #ffffff;
   text-align: center;
@@ -31,12 +101,58 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+<<<<<<< Updated upstream
   margin-top: 14px;
   width: 547px;
   margin-left: 366px;
   margin-bottom: 44px;
 }
 
+=======
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  margin-bottom: 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraf-organic {
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 547px;
+    height: 54px;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .paragraf-organic {
+    width: 547px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin-bottom: 44px;
+    margin-top: 14px;
+    color: #ffffff;
+
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  }
+}
+
+>>>>>>> Stashed changes
 .cards-fruits {
   display: flex;
   flex-wrap: wrap;
@@ -58,11 +174,17 @@
   border-radius: 20px;
 }
 
+<<<<<<< Updated upstream
 .iconka-watermelon {
   background: #9dc262;
   width: 389px;
   height: 465px;
   border-radius: 20px;
+=======
+.iconka:hover,
+.iconka:focus {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+>>>>>>> Stashed changes
 }
 
 .iconka-lime {
@@ -72,6 +194,7 @@
   border-radius: 20px;
 }
 
+<<<<<<< Updated upstream
 .iconka-apple {
   background: #e93f29;
   width: 389px;
@@ -107,6 +230,245 @@
   border-radius: 20px;
 }
 
+=======
+@media screen and (min-width: 768px) {
+  .iconka-strawberry {
+    background: #f8766b;
+    width: 344px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iconka-strawberry {
+    background: #f8766b;
+    width: 335px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .iconka-strawberry {
+    background: #f8766b;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .iconka-banana {
+    background: #edd251;
+    width: 344px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iconka-banana {
+    background: #edd251;
+    width: 335px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .iconka-banana {
+    background: #edd251;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .iconka-watermelon {
+    background: #9dc262;
+    width: 344px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iconka-watermelon {
+    background: #9dc262;
+    width: 335px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .iconka-watermelon {
+    background: #9dc262;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .iconka-lime {
+    background: #bfd663;
+    width: 344px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iconka-lime {
+    background: #bfd663;
+    width: 335px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .iconka-lime {
+    background: #bfd663;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .iconka-apple {
+    background: #e93f29;
+    width: 344px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iconka-apple {
+    background: #e93f29;
+    width: 335px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .iconka-apple {
+    background: #e93f29;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .iconka-peach {
+    background: #db4f4b;
+    width: 344px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iconka-peach {
+    background: #db4f4b;
+    width: 335px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .iconka-peach {
+    background: #db4f4b;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .iconka-plums {
+    background: #9b5366;
+    width: 344px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .iconka-plums {
+    background: #9b5366;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iconka-plums {
+    background: #9b5366;
+    width: 335px;
+    height: 465px;
+    border-radius: 20px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iconka-orange {
+    background: #f47f4c;
+    width: 335px;
+    height: 465px;
+    border-radius: 20px;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .iconka-orange {
+    background: #f47f4c;
+    width: 344px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .iconka-orange {
+    background: #f47f4c;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .iconka-kiwi {
+    background: #98b37e;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iconka-kiwi {
+    background: #98b37e;
+    width: 389px;
+    height: 465px;
+    border-radius: 20px;
+    display: none;
+  }
+}
+
+>>>>>>> Stashed changes
 .block-saglav {
   color: #ffffff;
   font-weight: 700;
