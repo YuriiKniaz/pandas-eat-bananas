@@ -4,7 +4,7 @@
     <ul class="contact-decorate">
       <li class="melon-item">
         <img
-          class="contact-decorate-item"
+          class="contact-picture"
           srcset="
             /img/contacts/melon_335.jpg   335w,
             /img/contacts/melon_344.jpg   344w,
@@ -22,7 +22,7 @@
       </li>
       <li class="bilberry-item">
         <img
-          class="contact-decorate-item"
+          class="contact-picture"
           srcset="
             /img/contacts/bilberry_344.jpg 344w,
             /img/contacts/bilberry_400.jpg 400w,
@@ -37,21 +37,26 @@
         />
       </li>
     </ul>
-    <p class="contacts-description">
-      Our boxes are packed with delicious, nutritious fruits and vegetables,
-      perfect for anyone looking to eat healthier or support local farmers.
-      Order your box today and start enjoying the best that nature has to offer!
-    </p>
-    <form class="contacts-form" name="signup_form">
-      <input
-        class="contacts-email"
-        type="email"
-        name="email"
-        placeholder="Enter email..."
-      />
-      <button class="contacts-button" type="button" data-modal-open-second>
-        Send
-      </button>
-    </form>
+    <div class="subscription">
+      <p class="contacts-description">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
+      <form class="contacts-form" name="signup_form" autocomplete="on">
+        <input
+          class="contacts-email"
+          type="email"
+          name="email"
+          placeholder="Enter email..."
+          required
+          minlength="5"
+        />
+        <button class="contacts-button" type="button" data-modal-open-second>
+          Send
+        </button>
+      </form>
+    </div>
   </div>
 </section>
