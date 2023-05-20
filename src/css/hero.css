@@ -15,6 +15,9 @@
     color: var(--text-color);
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
+.hero-main{
+    position: relative;
+}
 .girl-place{
     position: relative;
     box-sizing: border-box;
@@ -58,6 +61,7 @@
     font-size: 20px;
     line-height: 1;
     transform: rotate(-14deg);
+    transition: color var(--animation);
 }
 .button-shopnow:hover .shopnow-text,
 .button-shopnow:focus .shopnow-text{
@@ -191,6 +195,7 @@
     flex-direction: column;
     gap: 44px;
 }
+
 @media screen and (max-width: 767px) {
     .hero {
         padding-top: 56px;
@@ -278,7 +283,7 @@
         margin: 0 auto;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -30%);
+        transform: translate(-50%, -12%);
     }
     .hero-title{
         width: 704px;
@@ -393,6 +398,14 @@
         .hero-title::after{
             background-image: url(/img/hero/strawberry-bg-desktop@2x.png);
         }
+    }
+    .girl {
+        width: 486px;
+        height: 742px;
+        margin: 0 auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -8%);
     }
     .hero-main{
     margin-bottom: 74px;
