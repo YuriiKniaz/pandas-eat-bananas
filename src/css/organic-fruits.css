@@ -1,32 +1,4 @@
-.container {
-  min-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #AE1332;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 144px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 32px;
-    padding-right: 33px;
-    padding-bottom: 150px;
-  }
-}
-
-.organicFruits {
+/* .organicFruits {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -42,8 +14,11 @@
   .organicFruits {
     padding-top: 150px;
     padding-bottom: 150px;
-
   }
+} */
+
+.organic-fruits {
+  background-color: var(--main-color);
 }
 
 @media screen and (max-width: 767px) {
@@ -57,11 +32,14 @@
     line-height: 28px;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+
+    /* Вирівнювання по центру */
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .saglav-organic {
@@ -80,7 +58,6 @@
   }
 }
 
-
 .paragraf-organic {
   width: 334px;
   height: 90px;
@@ -92,16 +69,14 @@
   align-items: center;
   text-align: center;
   letter-spacing: -0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   margin-bottom: 44px;
 }
 
-
-
 @media screen and (min-width: 768px) {
   .paragraf-organic {
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     letter-spacing: -0.04em;
     font-style: normal;
@@ -127,12 +102,11 @@
     letter-spacing: -0.04em;
     margin-bottom: 44px;
     margin-top: 14px;
-    color: #FFFFFF;
+    color: #ffffff;
 
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   }
 }
-
 
 .cards-fruits {
   display: flex;
@@ -163,18 +137,15 @@
 .iconka:hover,
 .iconka:focus {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-
 }
 
 .iconka {
   transition: box-shadow var(--icon-hover-color);
 }
 
-
-
 @media screen and (min-width: 768px) {
   .iconka-strawberry {
-    background: #F8766B;
+    background: #f8766b;
     width: 344px;
     height: 465px;
     border-radius: 20px;
@@ -183,7 +154,7 @@
 
 @media screen and (max-width: 767px) {
   .iconka-strawberry {
-    background: #F8766B;
+    background: #f8766b;
     width: 335px;
     height: 465px;
     border-radius: 20px;
@@ -192,7 +163,7 @@
 
 @media screen and (min-width: 1280px) {
   .iconka-strawberry {
-    background: #F8766B;
+    background: #f8766b;
     width: 389px;
     height: 465px;
     border-radius: 20px;
@@ -201,7 +172,7 @@
 
 @media screen and (min-width: 768px) {
   .iconka-banana {
-    background: #EDD251;
+    background: #edd251;
     width: 344px;
     height: 465px;
     border-radius: 20px;
@@ -210,7 +181,7 @@
 
 @media screen and (max-width: 767px) {
   .iconka-banana {
-    background: #EDD251;
+    background: #edd251;
     width: 335px;
     height: 465px;
     border-radius: 20px;
@@ -219,17 +190,16 @@
 
 @media screen and (min-width: 1280px) {
   .iconka-banana {
-    background: #EDD251;
+    background: #edd251;
     width: 389px;
     height: 465px;
     border-radius: 20px;
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .iconka-watermelon {
-    background: #9DC262;
+    background: #9dc262;
     width: 344px;
     height: 465px;
     border-radius: 20px;
@@ -238,7 +208,7 @@
 
 @media screen and (max-width: 767px) {
   .iconka-watermelon {
-    background: #9DC262;
+    background: #9dc262;
     width: 335px;
     height: 465px;
     border-radius: 20px;
@@ -247,17 +217,16 @@
 
 @media screen and (min-width: 1280px) {
   .iconka-watermelon {
-    background: #9DC262;
+    background: #9dc262;
     width: 389px;
     height: 465px;
     border-radius: 20px;
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .iconka-lime {
-    background: #BFD663;
+    background: #bfd663;
     width: 344px;
     height: 465px;
     border-radius: 20px;
@@ -266,7 +235,7 @@
 
 @media screen and (max-width: 767px) {
   .iconka-lime {
-    background: #BFD663;
+    background: #bfd663;
     width: 335px;
     height: 465px;
     border-radius: 20px;
@@ -275,7 +244,7 @@
 
 @media screen and (min-width: 1280px) {
   .iconka-lime {
-    background: #BFD663;
+    background: #bfd663;
     width: 389px;
     height: 465px;
     border-radius: 20px;
@@ -284,7 +253,7 @@
 
 @media screen and (min-width: 768px) {
   .iconka-apple {
-    background: #E93F29;
+    background: #e93f29;
     width: 344px;
     height: 465px;
     border-radius: 20px;
@@ -293,7 +262,7 @@
 
 @media screen and (max-width: 767px) {
   .iconka-apple {
-    background: #E93F29;
+    background: #e93f29;
     width: 335px;
     height: 465px;
     border-radius: 20px;
@@ -302,7 +271,7 @@
 
 @media screen and (min-width: 1280px) {
   .iconka-apple {
-    background: #E93F29;
+    background: #e93f29;
     width: 389px;
     height: 465px;
     border-radius: 20px;
@@ -311,7 +280,7 @@
 
 @media screen and (min-width: 768px) {
   .iconka-peach {
-    background: #DB4F4B;
+    background: #db4f4b;
     width: 344px;
     height: 465px;
     border-radius: 20px;
@@ -320,7 +289,7 @@
 
 @media screen and (max-width: 767px) {
   .iconka-peach {
-    background: #DB4F4B;
+    background: #db4f4b;
     width: 335px;
     height: 465px;
     border-radius: 20px;
@@ -329,7 +298,7 @@
 
 @media screen and (min-width: 1280px) {
   .iconka-peach {
-    background: #DB4F4B;
+    background: #db4f4b;
     width: 389px;
     height: 465px;
     border-radius: 20px;
@@ -338,7 +307,7 @@
 
 @media screen and (min-width: 768px) {
   .iconka-plums {
-    background: #9B5366;
+    background: #9b5366;
     width: 344px;
     height: 465px;
     border-radius: 20px;
@@ -347,7 +316,7 @@
 
 @media screen and (min-width: 1280px) {
   .iconka-plums {
-    background: #9B5366;
+    background: #9b5366;
     width: 389px;
     height: 465px;
     border-radius: 20px;
@@ -356,7 +325,7 @@
 
 @media screen and (max-width: 767px) {
   .iconka-plums {
-    background: #9B5366;
+    background: #9b5366;
     width: 335px;
     height: 465px;
     border-radius: 20px;
@@ -364,10 +333,9 @@
   }
 }
 
-
 @media screen and (max-width: 767px) {
   .iconka-orange {
-    background: #F47F4C;
+    background: #f47f4c;
     width: 335px;
     height: 465px;
     border-radius: 20px;
@@ -377,7 +345,7 @@
 
 @media screen and (min-width: 768px) {
   .iconka-orange {
-    background: #F47F4C;
+    background: #f47f4c;
     width: 344px;
     height: 465px;
     border-radius: 20px;
@@ -386,7 +354,7 @@
 
 @media screen and (min-width: 1280px) {
   .iconka-orange {
-    background: #F47F4C;
+    background: #f47f4c;
     width: 389px;
     height: 465px;
     border-radius: 20px;
@@ -395,7 +363,7 @@
 
 @media screen and (min-width: 1280px) {
   .iconka-kiwi {
-    background: #98B37E;
+    background: #98b37e;
     width: 389px;
     height: 465px;
     border-radius: 20px;
@@ -404,7 +372,7 @@
 
 @media screen and (max-width: 768px) {
   .iconka-kiwi {
-    background: #98B37E;
+    background: #98b37e;
     width: 389px;
     height: 465px;
     border-radius: 20px;
@@ -413,7 +381,7 @@
 }
 
 .block-saglav {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 32px;
   line-height: 1.19;
@@ -423,7 +391,7 @@
 }
 
 .block-paragraf {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.3;
@@ -433,7 +401,7 @@
 }
 
 .block-pay {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 200px;
   width: 136px;
   height: 48px;
@@ -446,9 +414,8 @@
   margin-bottom: 24px;
 }
 
-
 .mony-pay {
-  color: #AE1332;
+  color: #ae1332;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.3;
