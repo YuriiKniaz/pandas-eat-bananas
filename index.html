@@ -11,7 +11,7 @@
     />
     
     <script type="module" crossorigin src="/pandas-eat-bananas/assets/index-3c4183d9.js"></script>
-    <link rel="stylesheet" href="/pandas-eat-bananas/assets/index-061a9e89.css">
+    <link rel="stylesheet" href="/pandas-eat-bananas/assets/index-6c4a4809.css">
   </head>
   <body>
     <header class="fresh-header">
@@ -509,7 +509,7 @@
     <ul class="contact-decorate">
       <li class="melon-item">
         <img
-          class="contact-decorate-item"
+          class="contact-picture"
           srcset="/pandas-eat-bananas/assets/melon_335-569bde8b.jpg 335w, /pandas-eat-bananas/assets/melon_344-5c50b1f0.jpg 344w, /pandas-eat-bananas/assets/melon_670-65dcf1a5.jpg 670w, /pandas-eat-bananas/assets/melon_688-c353282d.jpg 688w, /pandas-eat-bananas/assets/melon_792-d451a103.jpg 792w, /pandas-eat-bananas/assets/melon_1584-1cbc5e86.jpg 1584w"
           sizes="(min-width: 1280px) 792px, (min-width: 768px) 344px, (min-width: 375px) 335px,100vw"
           src="/pandas-eat-bananas/assets/melon_335-569bde8b.jpg"
@@ -520,7 +520,7 @@
       </li>
       <li class="bilberry-item">
         <img
-          class="contact-decorate-item"
+          class="contact-picture"
           srcset="/pandas-eat-bananas/assets/bilberry_344-d185daf4.jpg 344w, /pandas-eat-bananas/assets/bilberry_400-d566b4c2.jpg 400w, /pandas-eat-bananas/assets/bilberry_688-5441616b.jpg 688w, /pandas-eat-bananas/assets/bilberry_800-fd3f75a6.jpg 800w"
           sizes="(min-width: 1280px) 400px, (min-width: 768px) 344px, 100vw"
           src="/pandas-eat-bananas/assets/bilberry_344-d185daf4.jpg"
@@ -530,22 +530,27 @@
         />
       </li>
     </ul>
-    <p class="contacts-description">
-      Our boxes are packed with delicious, nutritious fruits and vegetables,
-      perfect for anyone looking to eat healthier or support local farmers.
-      Order your box today and start enjoying the best that nature has to offer!
-    </p>
-    <form class="contacts-form" name="signup_form">
-      <input
-        class="contacts-email"
-        type="email"
-        name="email"
-        placeholder="Enter email..."
-      />
-      <button class="contacts-button" type="button" data-modal-open-second>
-        Send
-      </button>
-    </form>
+    <div class="subscription">
+      <p class="contacts-description">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
+      <form class="contacts-form" name="signup_form" autocomplete="on">
+        <input
+          class="contacts-email"
+          type="email"
+          name="email"
+          placeholder="Enter email..."
+          required
+          minlength="5"
+        />
+        <button class="contacts-button" type="button" data-modal-open-second>
+          Send
+        </button>
+      </form>
+    </div>
   </div>
 </section>
 
