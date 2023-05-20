@@ -1,0 +1,63 @@
+/* <!-- Modal - THANK YOU --> */
+.backdrop-second {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(46, 47, 66, 0.4);
+  backdrop-filter: blur(6px);
+  transition-property: visibility, opacity, pointer-events;
+  transition-duration: 250ms;
+}
+
+.backdrop-second.is-hidden-second {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-second {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  max-width: 335px;
+  min-width: 288px;
+  min-height: 426px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+  background: #e03f5e;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-second {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    max-width: 600px;
+    min-height: 545px;
+    padding-right: 105px;
+    padding-left: 105px;
+    padding-bottom: 80px;
+    padding-top: 68px;
+  }
+}
+
+.btn-close-second {
+  display: block;
+  margin-left: auto;
+
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
