@@ -1,4 +1,6 @@
+
 .steps {
+
   background-color: var(--main-color);
 }
 
@@ -23,7 +25,7 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--text-color);
 
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
@@ -41,7 +43,7 @@
   text-align: center;
   letter-spacing: -0.04em;
 
-  color: #ffffff;
+  color: var(--text-color);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 @media screen and (min-width: 768px) {
@@ -72,7 +74,7 @@
   gap: 14px;
   max-width: 100%;
   height: 112px;
-  background-color: #fff;
+  background-color: var(--text-color);
   border-radius: 20px;
 }
 @media screen and (max-width: 767px) {
@@ -105,16 +107,16 @@
   justify-content: center;
   letter-spacing: -0.04em;
   border-radius: 200px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 .steps-list-item:nth-child(1) .steps-list-num {
-  background-color: #ae1332;
+  background-color: var(--main-color);
 }
 .steps-list-item:nth-child(2) .steps-list-num {
-  background-color: #a1c864;
+  background-color: var(--light-green);
 }
 .steps-list-item:nth-child(3) .steps-list-num {
-  background-color: #f5ce13;
+  background-color: var(--yellow-color);
 }
 .steps-list-text {
   font-size: 14px;
@@ -122,7 +124,7 @@
 
   letter-spacing: -0.04em;
 
-  color: #000000;
+  color: var(--black-color);
 
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
