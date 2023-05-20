@@ -1,7 +1,7 @@
 a {
   text-decoration: none;
 }
-.container {
+.container.footer-block {
   max-width: 375px;
   padding: 80px 20px;
   margin: 0 auto;
@@ -10,6 +10,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--text-color);
 }
 
 @media only screen and (min-width: 768px) {
@@ -61,7 +62,7 @@ a {
     .footer-img-logo {
       margin-right: 243px;
     }
- }
+}
 
 .footer-img {
   margin-bottom: 20px;
