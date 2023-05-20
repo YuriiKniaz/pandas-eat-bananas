@@ -40,7 +40,7 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
-  .footer-contacts {
+  .footer-contacts {min-width: 184px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -164,11 +164,16 @@ color: var(--main-color);
 
 .footer-address .auth-nav {
   display: flex;
+  font-style: normal;
   flex-direction: column;
     justify-content: center;
 }
 
 .footer-address .phone {margin-bottom: 14px;}
+
+@media only screen and (min-width: 768px) {
+  .footer-address .phone {margin-bottom: 20px;}
+}
 
 .footer-address .address {
 display: block;
@@ -179,6 +184,7 @@ display: block;
 @media only screen and (min-width: 768px) {
   .footer-address .address {
     text-align: left;
+    min-width: 184px;
   }
 }
 
