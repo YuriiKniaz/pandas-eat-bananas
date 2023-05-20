@@ -42,10 +42,23 @@
   --light-green: #a4cb66;
   --yellow-color: #f5ce13;
   --icon-hover-color: rgba(174, 19, 50, 0.1);
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.container {
+  padding: 0 20px 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+  min-width: 320px;
+}
+
+.section {
+  padding-bottom: 80px;
 }
