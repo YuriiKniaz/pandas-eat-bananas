@@ -27,7 +27,7 @@
 
     transform: rotate(-14deg);
     border-radius: 100%;
-    color: var(--brand-color-white);
+
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
