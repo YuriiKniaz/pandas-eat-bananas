@@ -9,39 +9,30 @@
   color: #ffffff;
 }
 
-.my-container {
-  max-width: 375px;
-
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 80px;
-
-  margin-left: auto;
-  margin-right: auto;
+.contacts-container {
   outline: 2px solid yellow;
+  position: relative;
+  padding-top: 53px;
 }
 
 @media screen and (min-width: 768px) {
-  .my-container {
+  .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+  .section {
     padding-bottom: 144px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .my-container {
+  .container {
     max-width: 1280px;
-    padding-left: 32px;
-    padding-right: 33px;
+  }
+  .section {
     padding-bottom: 150px;
   }
-}
-
-.contacts-container {
-  position: relative;
-  padding-top: 53px;
 }
 
 @media screen and (min-width: 768px) {
