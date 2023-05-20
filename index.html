@@ -10,7 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     
-    <link rel="stylesheet" href="/pandas-eat-bananas/assets/index-02f338c0.css">
+    <link rel="stylesheet" href="/pandas-eat-bananas/assets/index-8e049893.css">
   </head>
   <body>
     <header class="fresh-header">
@@ -30,13 +30,13 @@
     </nav>
     <div class="logo-box">
       <svg width="16" height="16">
-        <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-logo"></use>
+        <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-logo"></use>
       </svg>
       <span class="logo-text">fresh harvest box</span>
     </div>
     <div class="cart-box">
       <svg width="28" height="28">
-        <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-cart"></use>
+        <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-cart"></use>
       </svg>
     </div>
     <button
@@ -45,7 +45,7 @@
       aria-controls="mobile-menu"
     >
       <svg width="24" height="24">
-        <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-mob-menu-left"></use>
+        <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-mob-menu-left"></use>
       </svg>
     </button>
   </div>
@@ -58,7 +58,7 @@
       <li class="">
         <div class="logo-box">
           <svg width="16" height="16">
-            <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-logo"></use>
+            <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-logo"></use>
           </svg>
           <span class="logo-text">fresh harvest box</span>
         </div>
@@ -66,7 +66,7 @@
       <li>
         <button class="modal-close-btn js-close-menu" type="button">
           <svg width="12" height="12">
-            <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-close"></use>
+            <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-close"></use>
           </svg>
         </button>
       </li>
@@ -85,7 +85,7 @@
       </li>
       <li class="mobile-body-ul-item">
         <svg width="28" height="28">
-          <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-cart"></use>
+          <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-cart"></use>
         </svg>
       </li>
     </ul>
@@ -387,7 +387,7 @@
       />
       <a href="./index.html" class="footer-logo link">
         <svg class="logo-svg" width="16" height="16">
-          <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-logo"></use>
+          <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-logo"></use>
         </svg>
         <span class="footer-txt">FRESH HARVEST BOX</span>
       </a>
@@ -418,7 +418,7 @@
             aria-label="facebook link"
           >
             <svg class="social-icon" width="24" height="24">
-              <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-facebook"></use>
+              <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
@@ -431,7 +431,7 @@
             aria-label="instagram link"
           >
             <svg class="social-icon" width="24" height="24">
-              <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-instagram"></use>
+              <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
@@ -444,7 +444,7 @@
             aria-label="youtube link"
           >
             <svg class="social-icon" width="24" height="24">
-              <use href="/pandas-eat-bananas/assets/icons-a4f30e1d.svg#icon-youtube"></use>
+              <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-youtube"></use>
             </svg>
           </a>
         </li>
@@ -469,11 +469,9 @@
 </footer>
 
     <div class="btn-order-box">
-  <h3>Button order</h3>
-  <button class="order-button" type="button" data-modal-open>
-    order
-    <svg class="order-svg" width="14" height="14">
-      <use href=""></use>
+   <button class="order-button-modal" type="button" data-modal-open><span class="text-order-btn">order</span>
+      <svg class="order-svg" width="14" height="14">
+      <use href="/pandas-eat-bananas/assets/icons-9498ba78.svg#icon-vector-order"></use>
     </svg>
   </button>
 </div>
@@ -495,6 +493,7 @@
     <div class="modal-fruit-box">
       <ul class="modal-fruit-list">
         <li class="modal-fruit-items">
+          <div class="check-modal">
           <form class="modal-form-fruit">
            <label class="madal-form-agree" for="agree"
         ><input
@@ -503,16 +502,22 @@
           name="user_agreement"
           id="agree"
         />
+        </form>
+        </div>
+        <div class="text-basket">
         <h3 class="modal-title-basket">Strawberry Basket</h3>
         <p class="modal-text-basket">Plant</p>
+        </div>
+        <div>
         <img class="modal-img-basket" srcset="/pandas-eat-bananas/assets/strawberry-basket@1x-db474f99.png 1x, /pandas-eat-bananas/assets/strawberry-basket@2x-95f56e8e.png 2x"  
         src="/pandas-eat-bananas/assets/strawberry-basket@1x-db474f99.png"
          alt="strawberry basket" 
          width: 173px
          height: 196px>
-          </form>
+          </div>
         </li>
         <li class="modal-fruit-items yellow">
+          <div class="check-modal">
           <form class="modal-form-fruit">
            <label class="madal-form-agree" for="agree"
         ><input
@@ -521,16 +526,22 @@
           name="user_agreement"
           id="agree"
         />
-        <h3 class="modal-title-basket">Strawberry Basket</h3>
+      </form>
+      </div>
+        <div class="text-basket">
+        <h3 class="modal-title-basket">Apple Basket</h3>
         <p class="modal-text-basket">Plant</p>
-        <img class="modal-img-basket" srcset="/pandas-eat-bananas/assets/apple-basket@1x-360c376f.png 1x, /pandas-eat-bananas/assets/apple-basket@2x-e37014ef.png 2x"  
+      </div>
+        <div>
+        <img class="modal-img-basket-size" srcset="/pandas-eat-bananas/assets/apple-basket@1x-360c376f.png 1x, /pandas-eat-bananas/assets/apple-basket@2x-e37014ef.png 2x"  
         src="/pandas-eat-bananas/assets/apple-basket@1x-360c376f.png"
          alt="apple basket" 
          width: 229px
          height: 196px>
-          </form>
+          </div>
         </li>
         <li class="modal-fruit-items green">
+          <div class="check-modal">
           <form class="modal-form-fruit">
            <label class="madal-form-agree" for="agree"
         ><input
@@ -539,14 +550,19 @@
           name="user_agreement"
           id="agree"
         />
-        <h3 class="modal-title-basket">Strawberry Basket</h3>
+      </form>
+      </div>
+        <div class="text-basket">
+        <h3 class="modal-title-basket">Fruits Basket</h3>
         <p class="modal-text-basket">Plant</p>
-        <img class="modal-img-basket" srcset="/pandas-eat-bananas/assets/fruits-basket@1x-20949a19.png 1x, /pandas-eat-bananas/assets/fruits-basket@2x-7e3d8508.png 2x"  
+      </div>
+        <div>
+        <img class="modal-img-basket-size" srcset="/pandas-eat-bananas/assets/fruits-basket@1x-20949a19.png 1x, /pandas-eat-bananas/assets/fruits-basket@2x-7e3d8508.png 2x"  
         src="/pandas-eat-bananas/assets/fruits-basket@1x-20949a19.png"
          alt="strawberry basket" 
          width: 229px
          height: 196px>
-          </form>
+          </div>
         </li>
       </ul>
     </div>
@@ -560,9 +576,9 @@
           id="user-name"
           placeholder="Enter full name..."
         />
-        <svg class="modal-form-icon" width="18" height="24">
-          <use href="/pandas-eat-bananas/assets/icon-919af2fc.svg#icon-name"></use>
-        </svg>
+        <!-- <svg class="modal-form-icon" width="18" height="24">
+          <use href="/img/icon.svg#icon-name"></use>
+        </svg> -->
       </div>
       <div class="madal-form-box">
         <input
@@ -572,9 +588,9 @@
           id="user-mail"
           placeholder="Enter email..."
         />
-        <svg class="modal-form-icon" width="18" height="24">
-          <use href="/pandas-eat-bananas/assets/icon-919af2fc.svg#icon-name"></use>
-        </svg>
+        <!-- <svg class="modal-form-icon" width="18" height="24">
+          <use href="/img/icon.svg#icon-name"></use>
+        </svg> -->
       </div>
         <div class="madal-form-box">
         <input
@@ -582,9 +598,9 @@
           input name="credit-number" type="tel" pattern="\d*" maxlength="19" 
           placeholder="Enter card.."
         />
-        <svg class="modal-form-icon" width="18" height="24">
-          <use href="/pandas-eat-bananas/assets/icon-919af2fc.svg#icon-name"></use>
-        </svg>
+        <!-- <svg class="modal-form-icon" width="18" height="24">
+          <use href="/img/icon.svg#icon-name"></use>
+        </svg> -->
       </div>
         
        <div class="madal-text-box">
