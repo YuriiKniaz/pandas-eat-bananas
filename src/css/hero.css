@@ -27,6 +27,7 @@
     position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid;
     border-radius: 500px;
     border: double 1px transparent;
@@ -38,6 +39,7 @@
 .button-shopnow{
     position: absolute;
     bottom: 0;
+    transform: translateY(20px);
     width: 80px;
     height: 80px;
     background: var(--text-color);
@@ -189,20 +191,9 @@
     flex-direction: column;
     gap: 44px;
 }
-
-@media screen and (min-width: 375px) {
-    .container {
-        width: 375px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin: 0 auto;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .hero {
         padding-top: 56px;
-        padding-bottom: 80px;
     }
     .hero-main{
         margin-bottom: 510px;
@@ -247,7 +238,7 @@
     .girl{
         width: 335px;
         height: 509px;
-        transform: translateY(-58px);
+        transform: translateY(-80px);
     }
     .content-hero {
         flex-direction: column;
@@ -273,12 +264,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container{
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-        margin: 0 auto;
-    }
     .girl-place {
         background-image: url(/img/hero/herotablet.jpg);
         width: 452px;
@@ -286,7 +271,6 @@
     }
     .hero {
         padding-top: 64px;
-        padding-bottom: 137px;
     }
     .girl {
         width: 486px;
@@ -294,7 +278,7 @@
         margin: 0 auto;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -35%);
+        transform: translate(-50%, -30%);
     }
     .hero-title{
         width: 704px;
@@ -362,15 +346,8 @@
     }
 }
 @media screen and (min-width: 1280px) {
-    .container{
-        width: 1280px;
-        padding-left: 32px;
-        padding-right: 32px;
-        margin: 0 auto;
-    }
     .hero{
         padding-top: 64px;
-        padding-bottom: 150px;
     }
     .hero-title{
         font-size: 64px;
