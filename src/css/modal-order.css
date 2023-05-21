@@ -398,6 +398,12 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+.modal-form-input:invalid {
+    outline: 2px solid red;
+}
+
+
 .modal-form-input:hover,
 .modal-form-input:focus {
   border-color: 3px solid;
