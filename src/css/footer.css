@@ -192,6 +192,12 @@ a {
   border-radius: 10px;
 }
 
+.social-link.link {
+  transition-property: background-color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .social-link.link:hover,
 .social-link.link:focus {
   background-color: rgba(174, 19, 50, 0.1);
