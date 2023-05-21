@@ -157,6 +157,10 @@
   pointer-events: none;
 }
 
+.contacts-email:placeholder-shown:required:invalid + .contacts-button {
+  pointer-events: none;
+}
+
 .contacts-button {
   position: absolute;
   right: 100px;
