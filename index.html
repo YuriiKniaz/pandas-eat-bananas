@@ -11,7 +11,7 @@
     />
     
     <script type="module" crossorigin src="/pandas-eat-bananas/assets/index-3c4183d9.js"></script>
-    <link rel="stylesheet" href="/pandas-eat-bananas/assets/index-b774e98d.css">
+    <link rel="stylesheet" href="/pandas-eat-bananas/assets/index-eb81515e.css">
   </head>
   <body>
     <header class="fresh-header">
@@ -458,7 +458,7 @@
           name="user-name"
           id="user-name"
           placeholder="Enter full name..."
-          
+           pattern="^[a-zA-Z]+$"
         />
         <!-- <svg class="modal-form-icon" width="18" height="24">
           <use href="/img/icon.svg#icon-name"></use>
@@ -479,7 +479,7 @@
         <div class="madal-form-box">
         <input
           class="modal-form-input"
-          input name="credit-number" type="tel" pattern="\d*" maxlength="19" 
+          input name="credit-number" type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" maxlength="19" 
           placeholder="Enter card.."
         />
         <!-- <svg class="modal-form-icon" width="18" height="24">
