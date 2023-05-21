@@ -1,13 +1,13 @@
 /* Phone styles & > */
 .page-header.container {
-  min-width: 320px;
+  /* min-width: 320px;
   max-width: 375px;
   padding: 0 20px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 
   display: flex;
-  flex-direction: row !important;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   justify-content: space-between;
@@ -17,7 +17,7 @@
 /* Tablet styles & >  */
 @media only screen and (min-width: 768px) {
   .page-header.container {
-    padding: 0 32px;
+    /* padding: 0 32px; */
     max-width: 768px;
   }
 }
@@ -135,8 +135,6 @@
   width: 100vw;
   height: 100vh;
 
-  visibility: hidden;
-
   background-color: #fff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -148,13 +146,10 @@
 
 .menu-container.is-open {
   transform: translateX(0);
-  visibility: visible;
 }
 
 .mobail-menu-header {
   background-color: #fff;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .mobail-header-ul {
