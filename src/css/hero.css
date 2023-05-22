@@ -47,6 +47,8 @@
 .button-shopnow {
   cursor: pointer;
   position: absolute;
+  display: flex;
+  align-items: center;
   bottom: 0;
   transform: translateY(20px);
   width: 80px;
@@ -58,6 +60,7 @@
 }
 .shopnow-text {
   display: block;
+  margin: 0 auto;
   text-decoration: none;
   color: var(--main-color);
   text-align: center;
@@ -201,6 +204,31 @@
   flex-direction: column;
   gap: 44px;
 }
+@media screen and (max-width: 374px) {
+  .girl{
+    width: 89.33%;
+    height: 509px;
+    transform: translate(20px, -80px);
+  }
+  .girl-place{
+    width: 88%;
+    height: 484px;
+    background-position-x: -20px;
+  }
+}
+@media screen and (min-width: 375px) {
+    .girl-place {
+        background-image: url(/img/hero/hero.jpg);
+        width: 311px;
+        height: 484px;
+      }
+    
+      .girl {
+        width: 335px;
+        height: 509px;
+        transform: translateY(-80px);
+      }
+    }
 
 @media screen and (max-width: 767px) {
   .hero {
@@ -241,16 +269,6 @@
     z-index: -1;
     top: 0;
     right: 0;
-  }
-  .girl-place {
-    background-image: url(/img/hero/hero.jpg);
-    width: 311px;
-    height: 484px;
-  }
-  .girl {
-    width: 335px;
-    height: 509px;
-    transform: translateY(-80px);
   }
   .content-hero {
     flex-direction: column;
