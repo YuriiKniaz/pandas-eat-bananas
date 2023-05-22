@@ -130,8 +130,9 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  display: block;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 28px;
   height: 28px;
   padding: 0;
