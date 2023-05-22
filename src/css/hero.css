@@ -214,7 +214,16 @@
     width: 88%;
     height: 484px;
     background-position-x: -20px;
+    background-image: url(/img/hero/hero.jpg);
   }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .girl-place {
+          background-image: url(/img/hero/hero@2x.jpg);
+        }
+      }
 }
 @media screen and (min-width: 375px) {
     .girl-place {
