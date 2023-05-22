@@ -90,6 +90,13 @@ a {
   justify-content: center;
   margin-bottom: 24px;
 }
+@media only screen and (min-width: 768px) {
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+}
 
 .footer-logo-block .nav-ul {
   display: flex;
