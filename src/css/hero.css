@@ -205,39 +205,39 @@
   gap: 44px;
 }
 @media screen and (max-width: 374px) {
-  .girl{
+  .girl {
     width: 89.33%;
     height: 509px;
     transform: translate(20px, -80px);
   }
-  .girl-place{
+  .girl-place {
     width: 88%;
     height: 484px;
     background-position-x: -20px;
-    background-image: url(/img/hero/hero.jpg);
+    background-image: url(/img/hero/hero.webp);
   }
-    @media (min-device-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-      .girl-place {
-          background-image: url(/img/hero/hero@2x.jpg);
-        }
-      }
+    .girl-place {
+      background-image: url(/img/hero/hero@2x.webp);
+    }
+  }
 }
 @media screen and (min-width: 375px) {
-    .girl-place {
-        background-image: url(/img/hero/hero.jpg);
-        width: 311px;
-        height: 484px;
-      }
-    
-      .girl {
-        width: 335px;
-        height: 509px;
-        transform: translateY(-80px);
-      }
-    }
+  .girl-place {
+    background-image: url(/img/hero/hero.webp);
+    width: 311px;
+    height: 484px;
+  }
+
+  .girl {
+    width: 335px;
+    height: 509px;
+    transform: translateY(-80px);
+  }
+}
 
 @media screen and (max-width: 767px) {
   .hero {
@@ -256,7 +256,7 @@
   .hero-title::before {
     content: '';
     display: block;
-    background: url(/img/hero/banana-bg.png);
+    background: url(/img/hero/banana-bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 77px;
@@ -269,7 +269,7 @@
   .hero-title::after {
     content: '';
     display: block;
-    background: url(/img/hero/strawberry-bg.png);
+    background: url(/img/hero/strawberry-bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 56px;
@@ -291,20 +291,20 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-title::before {
-      background-image: url(/img/hero/banana-bg@2x.png);
+      background-image: url(/img/hero/banana-bg@2x.webp);
     }
     .hero-title::after {
-      background-image: url(/img/hero/strawberry-bg@2x.png);
+      background-image: url(/img/hero/strawberry-bg@2x.webp);
     }
     .girl-place {
-      background-image: url(/img/hero/hero@2x.jpg);
+      background-image: url(/img/hero/hero@2x.webp);
     }
   }
 }
 
 @media screen and (min-width: 768px) {
   .girl-place {
-    background-image: url(/img/hero/herotablet.jpg);
+    background-image: url(/img/hero/herotablet.webp);
     width: 452px;
     height: 702px;
   }
@@ -328,7 +328,7 @@
   .hero-title::before {
     content: '';
     display: block;
-    background: url(/img/hero/banana-bg-tablet.png);
+    background: url(/img/hero/banana-bg-tablet.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 155px;
@@ -341,7 +341,7 @@
   .hero-title::after {
     content: '';
     display: block;
-    background: url(/img/hero/strawberry-bg-tablet.png);
+    background: url(/img/hero/strawberry-bg-tablet.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 108px;
@@ -356,13 +356,13 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-title::before {
-      background-image: url(/img/hero/banana-bg-tablet@2x.png);
+      background-image: url(/img/hero/banana-bg-tablet@2x.webp);
     }
     .hero-title::after {
-      background-image: url(/img/hero/strawberry-bg-tablet@2x.png);
+      background-image: url(/img/hero/strawberry-bg-tablet@2x.webp);
     }
     .girl-place {
-      background-image: url(/img/hero/herotablet@2x.jpg);
+      background-image: url(/img/hero/herotablet@2x.webp);
     }
   }
   .hero-main {
@@ -399,7 +399,7 @@
   .hero-title::before {
     content: '';
     display: block;
-    background: url(/img/hero/banana-bg-desktop.png);
+    background: url(/img/hero/banana-bg-desktop.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 215px;
@@ -412,7 +412,7 @@
   .hero-title::after {
     content: '';
     display: block;
-    background: url(/img/hero/strawberry-bg-desktop.png);
+    background: url(/img/hero/strawberry-bg-desktop.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 120px;
@@ -427,10 +427,10 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-title::before {
-      background-image: url(/img/hero/banana-bg-desktop@2x.png);
+      background-image: url(/img/hero/banana-bg-desktop@2x.webp);
     }
     .hero-title::after {
-      background-image: url(/img/hero/strawberry-bg-desktop@2x.png);
+      background-image: url(/img/hero/strawberry-bg-desktop@2x.webp);
     }
   }
   .girl {
