@@ -13,7 +13,7 @@
     line-height: 1;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-left: auto;
     margin-right: auto;
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
@@ -76,6 +76,24 @@
   color: #ffffff;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   margin-bottom: 44px;
+}
+
+@media screen and (max-width: 374px) {
+  .paragraf-organic {
+    width: 100%;
+    height: 90px;
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    margin-bottom: 44px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -146,15 +164,16 @@
 }
 
 .iconka {
+  padding-top: 64px;
+  padding-left: 24px;
   transition: box-shadow var(--icon-hover-color);
 }
 
 @media screen and (min-width: 1280px) {
   .iconka {
-    flex-basis: calc((100% - 2 * 24px)/3);
+    flex-basis: calc((100% - 2 * 24px) / 3);
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .iconka-strawberry {
@@ -385,7 +404,7 @@
 
 @media screen and (max-width: 767px) {
   .iconka-kiwi {
-    background: #98B37E;
+    background: #98b37e;
     width: 335px;
     height: 465px;
     border-radius: 20px;
@@ -395,7 +414,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .iconka-kiwi {
-    background: #98B37E;
+    background: #98b37e;
     width: 344px;
     height: 465px;
     border-radius: 20px;
@@ -409,8 +428,6 @@
   font-size: 32px;
   line-height: 1.19;
   letter-spacing: -0.04em;
-  margin-left: 24px;
-  margin-top: 64px;
 }
 
 .block-paragraf {
@@ -419,7 +436,7 @@
   font-size: 18px;
   line-height: 1.3;
   letter-spacing: -0.02em;
-  margin-left: 24px;
+
   margin-top: 8px;
 }
 
@@ -433,8 +450,6 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-left: 24px;
-  margin-bottom: 24px;
 }
 
 .mony-pay {
